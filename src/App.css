@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis";
+  background: #F5EEDD;
+  /* color: F5EEDD;
+  color: 7AE2CF;
+  color: 077A7D;
+  color: 06202B; */
+}
+
+#bookmark-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#bookmark-manager i {
+  font-size: 90px;
+  color: #06202B
+}
+
+#bookmark-manager h1 {
+  font-size: 90px;
+  color: #077A7D
+}
+
+#bookmark-manager p {
+  font-size: 30px;
+  color: #077A7D;
+}
+
+#bookmark-manager input {
+  border: 2px solid #06202B;
+  background: #7AE2CF;
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Dosis";
+  padding: 10px;
+  font-size: 25px;
+}
+
+#bookmark-manager button {
+  border: none;
+  background: #06202B;
+  color: #F5EEDD;
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+.switch-btn {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  font-size: 30px;
+  color: #06202B;
+  cursor: pointer;
+}
+
+
+#bookmark-storage {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10px;
+}
+
+#bookmark-storage h2 {
+  font-size: 50px;
+  color: #077A7D;
+}
+
+#grid-maintain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr)); 
+  margin-top: 20px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.boxed {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #06202B;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.data-box {
+  background: #7AE2CF;
+  padding: 12px 16px;
+  border-top: 2px solid #06202B;
+}
+
+.data-box p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #06202B;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: none;
+}
+
+.data-box button {
+  background: #077A7D;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #F5EEDD;
+  border: 2px solid #06202B;
+}
+
+.data-box img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #7AE2CF;
+}
+
+.data-box a {
+   background: none;
+   color: #F5EEDD;
+   text-decoration: none  ;
+}
+
+.status-popup {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background: #F5EEDD;
+  border: 2px solid #06202B;
+  width: 250px;
+  justify-content: center;
+  height: 100px;
+  color: #F5EEDD;
+  align-items: center;
+  gap: 20px;
+  top: 10%;
+  right: 80%;
+}
+
+.status-popup p {
+  color: #06202B;
+  background: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.status-popup button {
+  background: #077A7D;
+  width: 50%;
+  border: 2px solid #06202B;
+  color: #F5EEDD;
+  margin-bottom: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.status-popup i {
+  font-size: 25px;
+  color: #06202B;
+}
