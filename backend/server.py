@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import requests
 import os
+
 import random
 from supabase import create_client, Client
 
